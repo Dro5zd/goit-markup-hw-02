@@ -26,6 +26,8 @@ body {
     background: var(--white);
 }
 
+/*STUDIO PAGE STYLES*/
+
 /*Header Style*/
 
 .header {
@@ -202,3 +204,62 @@ body {
 .footer-address a {
     color: rgba(255, 255, 255, 0.6);
 }
+
+/*PORTFOLIO PAGE STYLES*/
+
+.main-container {
+    width: 1360px;
+}
+
+/*Filter Style*/
+
+.filter-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.filter-button {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.filter-button:hover {
+    background: var(--blue);
+    color: var(--white);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+/*Project Style*/
+
+.project {
+    width: 370px;
+    height: 404px;
+    margin: 15px;
+    border: 1px solid #EEEEEE;
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
