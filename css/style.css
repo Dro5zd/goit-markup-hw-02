@@ -76,7 +76,7 @@ body {
 
 /*Main Page*/
 
-.main {
+.main-info {
     background-color: var(--light-black);
     height: 600px;
 }
