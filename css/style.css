@@ -30,10 +30,6 @@ body {
 
 /*Header Style*/
 
-.header {
-    height: 80px;
-}
-
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -78,7 +74,6 @@ body {
 
 .main-info {
     background-color: var(--light-black);
-    height: 600px;
 }
 
 .main-title {
@@ -148,7 +143,6 @@ body {
 /*Team*/
 
 .team {
-    height: 650px;
     background: var(--light-grey);
 }
 
@@ -184,7 +178,6 @@ body {
 /*Footer style*/
 
 .footer {
-    height: 250px;
     background-color: var(--light-black);
 }
 
@@ -206,10 +199,6 @@ body {
 }
 
 /*PORTFOLIO PAGE STYLES*/
-
-.main-container {
-    width: 1360px;
-}
 
 /*Filter Style*/
 
