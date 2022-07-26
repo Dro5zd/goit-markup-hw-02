@@ -8,6 +8,7 @@
 /*Colors Palette*/
 
 :root {
+    --solid-black: #000000;
     --black: #212121;
     --light-black: #2F303A;
     --grey: #757575;
@@ -36,7 +37,7 @@ body {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: var(--black);
+    color: var(--solid-black);
 }
 
 .logo-blue {
@@ -213,13 +214,11 @@ body {
     border-radius: 4px;
     padding: 6px 22px;
     border: none;
-
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .filter-button:hover {
