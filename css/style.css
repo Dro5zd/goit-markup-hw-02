@@ -12,6 +12,7 @@
     --black: #212121;
     --light-black: #2F303A;
     --grey: #757575;
+    --opacity-grey: rgba(255, 255, 255, 0.6);
     --light-grey: #F5F4FA;
     --blue: #2196F3;
     --white: #FFFFFF
@@ -65,8 +66,24 @@ body {
     color: var(--grey);
 }
 
-.line {
-    border: 1px solid #ECECEC;
+/*Footer style*/
+
+.footer {
+    background-color: var(--light-black);
+}
+
+.footer, .footer .logo, .footer .address-link {
+    color: var(--white);
+}
+
+.footer-address a {
+    font-style: normal;
+    width: 250px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--opacity-grey);
 }
 
 /*Main Container Styles*/
@@ -176,29 +193,6 @@ body {
     color: var(--grey);
 }
 
-/*Footer style*/
-
-.footer {
-    background-color: var(--light-black);
-}
-
-.footer, .footer .logo {
-    color: var(--white);
-}
-
-.footer-address {
-    font-style: normal;
-    width: 250px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
-
-.footer-address a {
-    color: rgba(255, 255, 255, 0.6);
-}
-
 /*PORTFOLIO PAGE STYLES*/
 
 /*Filter Style*/
@@ -210,7 +204,6 @@ body {
 }
 
 .filter-button {
-    background: #F5F4FA;
     border-radius: 4px;
     padding: 6px 22px;
     border: none;
@@ -219,6 +212,7 @@ body {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    background: var(--light-grey);
 }
 
 .filter-button:hover {
